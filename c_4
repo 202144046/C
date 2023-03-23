@@ -1,0 +1,98 @@
+# 2023-03-23 4주차 C언어 수업
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    double x, y, result;
+
+    printf("두개의 실수를 입력하시오:");
+    scanf(%if %if, &x, &y);
+
+    result = x + y;
+    printf("%f / %f = %f", x, y, result);
+
+    result = x - y;
+    printf("%f / %f = %f", x, y, result);
+
+    result = x * y;
+    printf("%f / %f = %f", x, y, result);
+
+    result = x / y;
+    printf("%f / %f = %f", x, y, result);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+int main(void)
+{
+    int x=10, y=10;
+
+    printf("x=%d\n", x);
+    printf("++x의 값=%d\n", ++x);
+    printf("x=%d\n\n", x);
+
+    printf("y=%d\n", y);
+    printf("y++의 값=%d\n", y++);
+    printf("y=%d\n", y);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+int x, y, z, a, b, c;
+printf("물건 값을 입력하시오:");
+scanf(%d,&x);
+printf("투입한 금액을 입력하시오:");
+scanf(%d,&y);
+printf("거스름돈은 다음과 같습니다.");
+
+z=y-x;
+a=z/1000;
+a=a % 1000;
+
+b=z/500;
+b=b % 500;
+
+c=z/100;
+c=a % 100;
+
+printf("천원권: %d장\n",a);
+printf("오백원 동전: %d개\n",b);
+printf("백원 동전: %d개\n",c);
+
+}
+#include <stdio.h>
+int main()
+{
+int x,y;
+    scanf("%d" "%d", &x, &y);
+
+    printf("%d\n", x*5);
+    printf("%d\n", x*8);
+    printf("%d\n", x*3);
+    printf("%d\n", x*y);
+
+    return(0);
+
+}
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    char code = 'A';
+    printf("%d %d %d\n", code, code +1, code +2); // 65 66 67이 출력된다.
+    printf("%c %c %c \n", code, code + 1, code + 2); // A B C가 출력된다.
+    return 0;
+}
+
+```
