@@ -1,0 +1,53 @@
+# C언어 1주차~3주차 수업
+
+/*두 개의 숫자의 합을 계산하는 프로그램*/
+#include <stdio.h>
+int main(void)
+{
+    int x; //첫번째 정수를 저장할 변수
+    int y; //두번째 정수를 저장할 변수
+    int sum; //두 정수의 합을 저장하는 변수
+    x = 100;
+    y = 200;
+    sum = x + y;
+    printf("두 수의 합 : %d", sum);
+    return 0;
+}
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+    float radius; //원의 반지름
+    float area; //면적
+    radius=printf("반지름을 입력하시오,\n");
+    scanf("%f",&radius);
+    area = 3.14 * radius * radius;
+    printf("원의 면적 : %f", area);
+
+}
+
+#include <stdio.h>
+
+int main(void) {
+
+    printf("Hello World!");
+
+}
+
+
+#define _CRT_SECURE_NO_WORNINGS
+#include <stdio.h>
+
+int main(void)
+{   
+    int x,y;
+    printf("첫번쨰 숫자를 입력하세요\n");
+    scanf("%d", &x);
+    printf("두번째 숫자를 입력하세요\n");
+    scanf("%d", &y);
+    printf("두 수의 합 : %d", x + y);
+
+}
+
