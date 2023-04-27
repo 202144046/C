@@ -1,4 +1,4 @@
-2023-04-20 7주차 C언어 수업
+#C언어 수업 차주차
 
 #include <stdio.h>
 int main(void)
