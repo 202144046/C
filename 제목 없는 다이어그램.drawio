@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T08:28:55.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="-uTOJW1ZLRei-h936jrt" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T08:59:04.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="EMg0EJrJ7DbmgyGKey-K" version="21.6.9" type="github">
   <diagram name="페이지-1" id="nsthZNYcR3cqLZR4O99o">
-    <mxGraphModel dx="3907" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3296" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,6 +212,9 @@
         </mxCell>
         <mxCell id="FY-_gAm6HcSWA7IgdV3F-55" value="case&lt;br&gt;default" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="500" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zyz3G5OSjQmwD31ZuKzT-2" value="&quot;제목 : &quot;&amp;amp;title1&lt;br&gt;&quot;내용 : &quot;&amp;amp;title2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
